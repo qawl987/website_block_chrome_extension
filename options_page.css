@@ -1,0 +1,114 @@
+.bg{
+    margin:0px;
+    padding:0px;
+    background: url(pexels-asad-photo-maldives-1450360.jpg) center center fixed no-repeat;
+    background-size: cover;
+    }
+.midBox{
+    /*position: absolute;
+    top:50%;
+    left: 50%;
+    width: 60%;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    不要設font size = 0*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+.midBox .formBox{
+    position: relative;
+}
+.midBox .formBox input {
+    width: 100%;
+    /*與下方input做出區隔*/
+    padding: 5px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+.midBox .formBox label {
+    /*用absolute脫離文本流覆蓋input*/
+    position: absolute;
+    /*top left=0位移到父元素的左上角也就是跟input覆蓋*/
+    top:0;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+.midBox .formBox input:focus ~ label,
+.midBox .formBox input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+.midBox .formBox #btn {
+    position: relative;
+    display: inline-block;
+    padding: 5px 5px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 10px;
+    letter-spacing: 4px
+  }
+.parentDiv{
+  position: relative;
+}
+.midBox .formBox .parentDiv .currentWeb{
+    display: relative;
+    width: 80%;
+    /*與下方input做出區隔*/
+    padding: 2px 0;
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.midBox .formBox .parentDiv .deleteButton {
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 2px 4px;
+    font-size: 10px;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 4px
+  }
+#clearWeb{
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 2px;
+  letter-spacing: 4px
+}

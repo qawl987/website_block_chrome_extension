@@ -1,0 +1,26 @@
+.bg{
+    margin:0px;
+    padding:0px;
+    background:#fff url(pexels-asad-photo-maldives-1450360.jpg) center center fixed no-repeat;
+    background-size: cover;
+    }       
+    
+    .midBox{
+        height: 60vh;
+        width: 60vw;
+        margin: 0 auto;
+        font-size: 0;
+        /*background-color: #fff;*/
+    }
+    .formBox{
+        /*display: inline-block;*/
+        height: 20vh;
+        width: 15vw;
+        /*background-color: yellow;*/
+      }
+    .input{
+        /*display: inline-block;*/
+        height: 10vh;
+        width: 15vw;
+    }
+    
