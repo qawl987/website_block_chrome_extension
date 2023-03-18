@@ -11,5 +11,6 @@ add your own website to block for yourself
 - in the setting page type your desire web page url
   - ![image](https://user-images.githubusercontent.com/62208230/226106040-ee501364-d235-4c04-b582-62d318400d30.png)
 - every time you enter the url you set, the cute dog will pop up
-  - ![image](https://user-images.githubusercontent.com/62208230/226106079-227da65d-f267-4c5f-bc40-fef5cd4cda8c.png)
+  - ![image](https://user-images.githubusercontent.com/62208230/226106223-76eb155f-b442-4421-82a7-d686489d3435.png)
+
 
