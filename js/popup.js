@@ -8,7 +8,7 @@ newpage.addEventListener("click", async () => {
     chrome.tabs.create({
       index: tab.id + 1,
       active: true,
-      url: 'options.html',
+      url: '/options.html',
       })
     console.log('click button')
   });
